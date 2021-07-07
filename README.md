@@ -12,6 +12,6 @@ Private coins  can secure your  tranactions as well as hide your identity
 
 “The lack of financial privacy is detrimental to most cryptocurrency use cases,” they continue. “We do believe if users were using the technology in a sound way or a privacy-focused wallet software would have helped them and abstracted away potential privacy leaks.
 
-###  how the transaction take place in crypto coins 
+# How the transaction take place in crypto coins 
 
-# UTXO'S (UNSPENT TRANSACTION OUTPUT)
+## UTXO'S (UNSPENT TRANSACTION OUTPUT)
