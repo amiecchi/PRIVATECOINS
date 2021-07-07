@@ -25,4 +25,4 @@ Here's how it works. A UTXO database is used to store change from cryptocurrency
 
 But cryptocurrencies like bitcoin are also unique in that transactions can be conducted using fractions of the cryptocurrency. This means spending does not take place using a single data byte. Instead, multiple fractions of bitcoin are retrieved by the algorithm to fulfill a spending request. For example, a purchase worth 1 bitcoin may retrieve 0.6 BTC from one byte and 0.4 BTC from another. Change from each of these fractions is then sent to the UTXO database to be spent at a later date.
 
-(YOUR LINL HERE)(youtube.com/watch?v=hKft6E4K8KY)
+(YOUR LINK HERE)(youtube.com/watch?v=hKft6E4K8KY)
