@@ -243,6 +243,6 @@ With this protocol we are challenging previous patterns of full node usability. 
 
 ## Keyword definitions
 
-[Keywors](https://menajem.soy/6a104cd9687c4393afc5c58cf388bd95)
+[Keywords](https://menajem.soy/6a104cd9687c4393afc5c58cf388bd95)
 
 
