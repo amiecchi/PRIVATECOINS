@@ -27,8 +27,26 @@ But cryptocurrencies like bitcoin are also unique in that transactions can be co
 
 <iframe width="727" height="409" src="https://www.youtube.com/embed/hKft6E4K8KY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-####TECHNOLOGY AROUND PRIVATE COINS
+## TECHNOLOGY AROUND PRIVATE COINS
 
 ##### 1.COIN JOIN
 
+CoinJoin is a trustless method for combining multiple Bitcoin payments from multiple spenders into a single transaction to make it more difficult for outside parties to determine which spender paid which recipient or recipients.
+
+CoinJoin is an anonymization strategy that protects the privacy of Bitcoin users when they conduct transactions with each other, obscuring the sources and destinations of BTC used in transactions.
+
+
+CoinJoin requires multiple parties to jointly sign a digital smart contract to mix their coins in a new Bitcoin transaction, where the output of the transaction leaves the participants with the same number of coins, but the addresses have been mixed to make external tracking difficult.
+
+
+The process is also known as coin mixing.
+
+###### KEY TAKEAWAYS
+
+
+CoinJoin is a process used to anonymize Bitcoin transactions online.
+CoinJoin involves a multi-party Bitcoin transaction where all parties to the transaction put in and get out the same amount of Bitcoin, but the addresses are mixed in the transaction making the origin of the coins difficult to trace.
+CoinJoin is typically performed automatically by dedicated services that carry it out. Performing a CoinJoin without such a tool is difficult and requires advanced coding skills.
+
+#### MIMBLEWIMBLE
 
