@@ -155,3 +155,66 @@ ZCash is built on the Bitcoin framework, and, in many respects, is identical to 
 
 ##### Zcash Weaknesses & Disadvantages
 Potential for Misallocation of ZEC Quantity: In the Zcash protocol's present state, if the network is exposed to a bug that allowed for people to generate more Zcash coins than the intended money supply, the resulting inflation would crash the price of Zcash for speculators
+
+#### MONERO
+
+Monero is a digital currency that offers a high level of anonymity for users and their transactions. Like Bitcoin, Monero is a decentralized peer-to-peer cryptocurrency, but unlike Bitcoin, Monero is characterized as a more anonymous or privacy-oriented digital cash.
+
+
+KEY TAKEAWAYS
+Monero is a popular blockchain-based cryptocurrency, or altcoin.
+Monero has several privacy-enhancing features that improve upon Bitcoin.
+Like Bitcoin, Monero is open source and created from decentralized, grass-roots development.
+
+##### Some notable weaknesses of Monero:
+Privacy. I would argue that Monero is the most private currency around, but it is not perfect. ...
+Mining centralization. ...
+No phone wallets. ...
+Transaction size. ...
+Limited use. ...
+Development difficulty. ...
+Limited merchant tools. ..
+
+#### DASH
+
+Launched in 2014, the cryptocurrency Dash was originally known as Xcoin. After being rebranded as Darkcoin, it landed on its current name, Dash, in March 2015. When it was initially created, it was designed to ensure user privacy and anonymity. The cryptocurrency’s whitepaper, co-authored by Evan Duffield and Daniel Diaz, describes it as a privacy-centric cryptocurrency based on Bitcoin founder Satoshi Nakamoto’s work.1
+
+
+KEY TAKEAWAYS
+Dash aims to become a medium for daily transactions as a digital currency that can be used as cash, credit card, or via PayPal.
+In 2018, the digital cash company expanded into Venezuela, the cryptocurrency's first foray into an economically-distressed country.2
+Dash is run by a subset of its users, which are called "masternodes."
+All masternodes have a starting stake, which is equal to 1,000 DASH in their systems.
+While it still features strong encryption features, the company has since recast its ambitions. Dash now aims to become a medium for daily transactions as a digital currency that can be used as cash, credit card, or via PayPal. Dash is an open-source project which includes a decentralized payment network.
+
+##### WEAKNESS OF DASH
+We still explore how it scales for many concurrent users.
+At some point, you will need more sophisticated components than Dash provides by default.
+You'll have to write your own components in React.js.
+Or you'll have to port already existing components from React.js to Dash.
+
+##### GRIN 
+
+GRiN — THE MIMBLEWIMBLE BLOCKCHAIN
+
+Grin is a privacy-preserving digital currency built openly by developers distributed all over the world.
+
+Grin has no amounts and no addresses. Transactions can be trivially aggregated. To hide the origin of a newly created transaction, it gets relayed among a sub-set of peers before it is widely broadcasted.
+
+Grin is not controlled by any company, foundation or individual. The coin distribution is designed to be as fair as possible, with an emission of 1 GRIN per second.
+
+Mimblewimble leverages cryptography to allow past transaction data to be removed with no compromise on security. This avoids Grin collapsing under the weight of data having to be kept on chain.
+
+##### WEAKNESS OF GRIN COIN
+
+the degree of decentralization and sheer mining power securing the network. regulatory and censorship risk (not of the protocol, but points of weakness around it: on-boarding, off-boarding, services leveraging Grin and individual users themselves) a need for a privacy-focused digital cash
+
+#### 5. IRONFISH
+
+Iron Fish is a decentralized, proof-of-work (PoW) based, censorship-resistant, and publicly accessible blockchain project. It is designed to support strong privacy guarantees on every transaction. Similarly to how the invention of the SSL/TLS layer in the 90s paved the way to e-commerce and benefited countless industries, we believe that privacy is a fundamental requirement to protect the user and expand the use of cryptocurrency.
+
+We have designed Iron Fish to be a new cryptocurrency from the ground up to enable easy-to-use, fully-private payments by closely following the Sapling protocol. Every account is equipped with a view-key to grant its holder read-only permission for the details of that account.
+
+With this protocol we are challenging previous patterns of full node usability. The Iron Fish networking layer supports WebRTC with WebSockets, making it trivial for all users to make a true P2P connection with no other setup requirements. Our first Iron Fish implementation is built such that it can be extended to run a full node directly in the browser in future iterations. And our focus is to lower the barrier to entry so that any person with a computer feels comfortable enough to run a full node.
+
+
