@@ -48,6 +48,8 @@ CoinJoin is a process used to anonymize Bitcoin transactions online.
 CoinJoin involves a multi-party Bitcoin transaction where all parties to the transaction put in and get out the same amount of Bitcoin, but the addresses are mixed in the transaction making the origin of the coins difficult to trace.
 CoinJoin is typically performed automatically by dedicated services that carry it out. Performing a CoinJoin without such a tool is difficult and requires advanced coding skills.
 
+[COIN JOIN](https://youtu.be/jMJkviHOGog)
+
 #### 2. MIMBLEWIMBLE
 
 Mimblewimble is a ridiculously-named technology that stops blockchains from blabbing personal information. It’s named after a Harry Potter spell that stops people from spilling secrets.
@@ -66,6 +68,8 @@ I cannot initiate a wire transfer from your bank account, but rather only from m
 Bitcoin fulfills the two requirements by spilling the three secrets above.
 Bitcoin transactions contain the amount and the receiver’s address in plaintext. That is enough to meet the first requirement; we see that 5 bitcoins went into the transaction, and 5 came out.
 To verify that the second requirement is fulfilled, Bitcoin uses public addresses with corresponding private keys. The public address owns the bitcoins. The sender generates a signature using the corresponding private key, and signs his transaction (which, I repeat, contains the amount and the receiver’s address in plaintext). Everyone can check that the signature comes from the private key behind the address that holds the coins; this way we know the signature comes from the guy with authority to initiate the transaction.
+
+[MIMBLEWIMBLE](https://youtu.be/JIwX9cEoAXw)
 
 #### 3.ZERO KNOWLEDGE SHILDED TRANSACTIONS
 
@@ -107,12 +111,17 @@ Alice also returns and sees that Bob has a piece of paper with a “minus” on 
 
 Such example, in a slightly different form, is widely known as Yao’s Millionaire’s Problem where two millionaires want to find out if they have the same amount of money without disclosing the exact amount. This is one simple example of how ZKP works.
 
+[MOON MATH](https://youtu.be/5ovdoxnfFVc)
+[ZERO KNOWLEDGE](https://youtu.be/OcmvMs4AMbM)
+
 
 #### 4.CONFIDENTIAL TRANSACTIONS 
 
 Confidential Transactions keep the amount and type of assets transferred visible only to participants in the transaction (and those they choose to reveal the blinding key to), while still cryptographically guaranteeing that no more coins can be spent than are available.
 
 This goes a step beyond the usual privacy offered by Bitcoin’s blockchain, which relies purely on pseudonymous (but public) identities. This matters, because insufficient financial privacy can have serious security and privacy implications for both commercial and personal transactions. Without adequate protection, thieves can focus their efforts on high-value targets, competitors can learn business details, and negotiating positions can be undermined.
+
+[CONFIDENTIAL TRANSACTIONS](https://youtu.be/zslQaOou8Zo)
 
 #### 5. STEALTH ADRESSESS
 
@@ -129,6 +138,8 @@ Blockchain networks involve pseudonymous transactions, meaning once personal inf
 Stealth addresses have grown in popularity due, in part, to concerns about hackers gaining access to digital wallets and stealing cryptocurrency coins.
 Stealth addresses have faced scrutiny from regulators and tax authorities since they can be used for illegal behavior, including money laundering.
 
+[Stealth addresses](https://youtu.be/bWst278J8NA)
+
 
 #### 6. RING SIGNATURES 
 
@@ -136,6 +147,8 @@ The Basics
 In cryptography, a ring signature is a type of digital signature that can be performed by any member of a group of users that each have keys. Therefore, a message signed with a ring signature is endorsed by someone in a particular group of people. One of the security properties of a ring signature is that it should be computationally infeasible to determine which of the group members' keys was used to produce the signature.
 
 For instance, a ring signature could be used to provide an anonymous signature from "a high-ranking White House official", without revealing which official signed the message. Ring signatures are right for this application because the anonymity of a ring signature cannot be revoked, and because the group for a ring signature can be improvised (requires no prior setup).
+
+[RING SIGNATURES](https://youtu.be/zHN_B_H_fCs)
 
 #### 7. MIXING
 
@@ -156,6 +169,8 @@ ZCash is built on the Bitcoin framework, and, in many respects, is identical to 
 ##### Zcash Weaknesses & Disadvantages
 Potential for Misallocation of ZEC Quantity: In the Zcash protocol's present state, if the network is exposed to a bug that allowed for people to generate more Zcash coins than the intended money supply, the resulting inflation would crash the price of Zcash for speculators
 
+[THE CEREMONY](https://youtu.be/D6dY-3x3teM)
+
 #### MONERO
 
 Monero is a digital currency that offers a high level of anonymity for users and their transactions. Like Bitcoin, Monero is a decentralized peer-to-peer cryptocurrency, but unlike Bitcoin, Monero is characterized as a more anonymous or privacy-oriented digital cash.
@@ -175,6 +190,8 @@ Limited use. ...
 Development difficulty. ...
 Limited merchant tools. ..
 
+[MONER0](https://youtu.be/qrUq0v5VgdU)
+
 #### DASH
 
 Launched in 2014, the cryptocurrency Dash was originally known as Xcoin. After being rebranded as Darkcoin, it landed on its current name, Dash, in March 2015. When it was initially created, it was designed to ensure user privacy and anonymity. The cryptocurrency’s whitepaper, co-authored by Evan Duffield and Daniel Diaz, describes it as a privacy-centric cryptocurrency based on Bitcoin founder Satoshi Nakamoto’s work.1
@@ -193,6 +210,8 @@ At some point, you will need more sophisticated components than Dash provides by
 You'll have to write your own components in React.js.
 Or you'll have to port already existing components from React.js to Dash.
 
+[DASH](https://youtu.be/idjMiU9CI1Q)
+
 ##### GRIN 
 
 GRiN — THE MIMBLEWIMBLE BLOCKCHAIN
@@ -205,6 +224,8 @@ Grin is not controlled by any company, foundation or individual. The coin distri
 
 Mimblewimble leverages cryptography to allow past transaction data to be removed with no compromise on security. This avoids Grin collapsing under the weight of data having to be kept on chain.
 
+[GRIN](https://youtu.be/sgmvsB1omx0)
+
 ##### WEAKNESS OF GRIN COIN
 
 the degree of decentralization and sheer mining power securing the network. regulatory and censorship risk (not of the protocol, but points of weakness around it: on-boarding, off-boarding, services leveraging Grin and individual users themselves) a need for a privacy-focused digital cash
@@ -216,5 +237,7 @@ Iron Fish is a decentralized, proof-of-work (PoW) based, censorship-resistant, a
 We have designed Iron Fish to be a new cryptocurrency from the ground up to enable easy-to-use, fully-private payments by closely following the Sapling protocol. Every account is equipped with a view-key to grant its holder read-only permission for the details of that account.
 
 With this protocol we are challenging previous patterns of full node usability. The Iron Fish networking layer supports WebRTC with WebSockets, making it trivial for all users to make a true P2P connection with no other setup requirements. Our first Iron Fish implementation is built such that it can be extended to run a full node directly in the browser in future iterations. And our focus is to lower the barrier to entry so that any person with a computer feels comfortable enough to run a full node.
+
+## ironfish os the best private coin technology so far which uses zcash protocol and aslo hides the ip addresss 
 
 
